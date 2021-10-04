@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/styles.css">
+    <title>Game Skills</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="">
+        </div>
+
+        <h1>Game Skills</h1>
+        <!--Partie nav dans le header, penser pour du responsive sans css pour le moment-->
+        <div id="nav">
+            <div id="menu">
+                <nav>
+                    <ul id="menu-large">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="metiers.html">Métiers</a></li>
+                        <li><a href="histoire.html">Histoire</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="retro.html">Retro</a></li>
+                        <li><a href="glossaire.html">Glossaire</a></li>
+                    </ul>
+                </nav>
+
+                <nav>
+                    <ul id="menu-responsive">
+                        <li><a href="menu_responsive.html">Menu</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+
+            <div id="link-connect">
+                <nav>
+                    <ul id="connect">
+                        <li><a href="connexion.html">Connexion</a></li>
+                        <li><a href="inscription.html">Inscription</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="background">
+
+            <img src="../images/world-collapse-doomsday-scene-digital-painting.jpg"  >
+
+        </section>
+        <section id="contact">
+            <a href="#bas">Aller en bas de page</a>
+
+            <form action="" method="POST" id="haut">
+                <fieldset>
+                    <legend>Identité</legend>
+                    <div class="contact">
+                        <label for="lastname">Entrez votre nom :</label>
+                        <input type="text" name="lastname" id="lastname" required>
+                    </div>
+                    <div class="contact">
+                        <label for="firstname">Entrez votre prénom :</label>
+                        <input type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div class="contact">
+                        <label for="age">Votre âge : </label>
+                        <input type="number" name="age" id="age" min="15" max="60" required>
+                    </div>
+                    <div class="contact">
+                        <label for="birthday">Entrez votre date de naissance:</label>
+                        <input type="date" name="birthday" id="birthday" max="2022-12-31" required>
+                    </div>
+                    <div class="contact">
+                        <label for="phone">Entrez votre numéro de téléphone:</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div class="contact">
+                        <label for="email">Entrez votre email :</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Couleur</legend>
+                    <div class="contact">
+                        <label for="favorite_color">Couleur préféré:</label>
+                        <input type="color" name="favorite_color" id="favorite_color" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Langues</legend>
+                    <div>
+                        <input type="checkbox" id="français" name="langues[français]">
+                        <label for="français">Français</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="anglais" name="langues[anglais]">
+                        <label for="anglais">Anglais</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="allemand" name="langues[allemand]">
+                        <label for="allemand">Allemand</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="espagnol" name="langues[espagnol]">
+                        <label for="espagnol">Espagnol</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mandarin" name="langues[mandarin]">
+                        <label for="mandarin">Mandarin</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="japonais" name="langues[japonais]">
+                        <label for="japonais">Japonais</label>
+                    </div>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre message</legend>
+                    <div class="contact">
+                    <label for="message">Entrez votre message :</label>
+                    <textarea id="wanted" name="wanted" rows="5" cols="33">Ecris ce que tu veux...</textarea>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Envoyer</button>
+
+            </form>
+            <a href="#haut">Retourner en haut de page</a>
+        </section>
+       
+    </main>
+    <footer>
+        <div id="bas">
+            <p>Copyright - All rights reserved - GEEK-TAKU</p>
+            <p><a href="mentions_legales.html">Mentions légales</a></p>
+            <p><a href="equipe.html">Qui sommes-nous ?</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

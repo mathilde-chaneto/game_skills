@@ -1,0 +1,594 @@
+@media screen and (min-width: 300px) {
+
+    /*-----------HTML ET BODY-----------*/
+    html, body {
+        min-height: 100vh;
+        min-width: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: white; 
+    }
+
+    img {
+        width: 100%;
+    }
+
+    header a:link, footer a:link {
+       text-decoration: none;
+    }
+
+     /*-----------HEADER ET FOOTER-----------*/
+    header, footer {
+        background-color:  #1A1831;
+    }
+
+     /*-----------HEADER-----------*/
+
+    header {
+        display:  flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 3px dimgray;
+     
+    }
+
+    h1 {
+        color: wheat;
+    }
+
+     #nav #connect {
+        display: none;
+    }
+  
+    #nav #connect {
+        padding: 0;
+    }
+    
+    #menu-responsive {
+        display: flex;
+        padding: 0;
+    }
+
+    #menu-large {
+        display: none;
+    }
+
+    nav ul li {
+        list-style-type: none;
+
+    }
+
+    header a, footer a, header a:hover, footer a:hover {
+         color: lightgray;
+    }
+
+    header a:hover, footer a:hover {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+     /*-------------------SECTION-----------------*/
+
+     section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: currentColor;
+    }
+
+    section:last-child {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 0 5rem 0;
+
+    }
+
+    section > h2 {
+        text-align: center;
+        color: white;
+        margin-top: 2rem;
+    }
+
+    section a, section h3 {
+        text-align: center;
+    }
+
+    section h3 a {
+        color: teal;
+    }
+
+     /*menu_responsive.html*/
+
+     #links {
+         flex-direction: column;
+         min-height: 100vh;
+         justify-content: flex-start;
+     }
+
+     #links a {
+         text-align: right;
+         width: 100%;
+         font-size: 4rem;
+         padding: 2rem 3rem;
+     }  
+     
+     #links nav {
+         margin: auto;
+     }
+
+     #links nav ul {
+         padding: 0;
+         text-align: center;
+
+     }
+
+     #links nav ul li{
+        margin-bottom: 8rem;
+        font-size: 32px;
+        margin-right: 0;
+    }
+
+    #links nav ul li:first-of-type {
+        margin-top: 5rem;
+    }
+     
+    /*menu responsive and background*/
+
+     #links,
+     #background
+     {
+         padding: 0;
+         margin: 0;
+     }
+
+    /*background*/
+
+     #background {
+        overflow: hidden;
+        height: 300px;
+        display: contents;
+     }
+
+     #background img {
+        max-width: 100%;
+        border-bottom: solid 3px dimgray;
+     }
+    
+    /*about : index*/
+
+    #about {
+        background-color: white;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    /*history*/
+
+    #history p {
+        color: burlywood;
+    }
+
+    /*jobs and video games console*/
+
+    #jobs #categories, #consoles #categories {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #jobs #categories figure {
+        width: 70%;
+    }
+
+    #consoles #categories figure {
+        width: 100%;
+    }
+
+    #categories figure:last-child {
+        margin-right: 0;
+    }
+
+    #categories figure figcaption {
+      text-align: center;
+    }
+
+    #categories figure figcaption p{
+        color: honeydew;
+    }
+
+    #categories figure figcaption span{
+        text-transform: uppercase;
+        color: burlywood;
+    }
+
+    /*lexique*/ 
+
+    #lexique  dl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+        width: 90%;
+    }
+
+    dt, dd {
+        background-color: #cac09b;
+        width: 90%;
+    }
+    
+    dt {
+        padding: 20px 0 0 20px;
+    }
+
+    dd {
+        padding: 0 0  20px 20px;
+    }
+
+
+
+  /*mentions legales*/
+
+    #mentions-legales,  #mentions-legales div,  #mentions-legales ul {
+        flex-direction: column;
+    }
+
+    #mentions-legales h3 {
+        color: white;
+        margin: 1rem 0;
+    }
+
+    #mentions-legales ul li {
+        color: burlywood;
+    }
+
+    #mentions-legales  ul  {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    /*teams*/
+
+    #team p {
+        color: burlywood;
+    }
+
+    #team  > p:first-of-type {
+        width: 50%;
+    }
+
+    #team figcaption p {
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+
+    /*contact*/
+
+    #contact a:first-of-type {
+        display: inline-block;
+        margin-top: 2rem;
+    }
+
+    /*Inscription*/
+
+    #avatar img {
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    /*-----------JUST TEXT AND LINKS-----------*/
+
+    P {
+        font-size: 18px;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+
+    section h3 a:hover, section a:hover {
+        text-decoration-line: none;
+    }
+
+    section h3 a:hover {
+        color: darksalmon;
+    }
+    /*-----------FIGURE-----------*/
+
+     figcaption p {
+         font-weight: bold;
+     }
+
+     /*-----------ARTICLE-----------*/
+
+     h2 {
+        text-align: center;
+        color: black;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+        width: 100%;
+        height: 500px;
+    }
+
+    
+
+    /**
+    * flex-grow :  tous les items  ont tous le meêm rapport de taille. = 1
+    * flex-shrink : gérer le retrécissement . = 0 => pas de rétrécissement
+    * flex-bais : détermine la taille minimal des léments flex. = 500px
+    */
+        #container > article {
+            margin-bottom: 2rem;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:  #cac09b;
+            margin: 20px;
+            padding: 20px;
+            opacity: 1;
+        }
+    
+        #container article:hover {
+            transform: scale(1.1);
+        }
+    
+   
+     * article p {
+        color: midnightblue;   
+        text-align: center; 
+    }
+
+    /*-----------ARTICLE INTRO-----------*/
+
+    #intro a {
+        text-align: center;
+    }
+
+    /*-----------FORM-----------*/
+
+    form {
+        background-color: darkgrey;
+        color: black;
+        width: 70%;
+        padding: 20px;
+        margin: 2rem 0;
+    }
+
+    form .contact {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    form label {
+        margin-bottom: 0;
+    }
+
+    form button {
+        border-radius: 10px;
+        width: 100px;
+    }
+
+    /*-----------FOOTER-----------*/
+
+    footer {
+        position: relative;
+        bottom: 0;
+        min-width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: grey;
+        border-top: solid 3px dimgray;
+    }
+
+    footer p:first-child {
+        margin-top: 1rem;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    #container {
+        flex-direction: row;
+        height: auto;
+    }
+
+    #container > article {
+        flex-basis: 600px; 
+        margin: 2rem 2rem;
+    }
+
+}
+
+@media screen and (min-width: 600px), screen and (min-width: 768px) {
+   
+    #nav, #nav #connect {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu-responsive {
+        display: none;
+    }
+
+    #menu-large {
+        display: flex;
+        padding: 0;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        margin-right: 1rem;
+
+    }
+
+    header a:hover {
+        border-bottom: lightgray solid 2px;
+     }
+ 
+     header a {
+         padding-bottom: 1rem;
+     }
+
+     #intro #img {
+        max-width: 50%;
+    }
+
+    #intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #intro #img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+    }
+   
+    #intro p {
+        text-align: justify;
+    }
+
+}
+
+
+@media screen and (min-width: 1100px) {
+
+    #background img {
+        height: 500px;
+    }
+
+    #jobs #categories,  #consoles #categories {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+    }
+
+    #categories figure {
+        margin-right: 5rem;
+
+    }
+
+    #categories figure:hover {
+        transform: scale(1.1);
+    }
+
+     /*-----------ARTICLE : INTRO-----------*/
+
+    #intro div:last-of-type {
+        max-width: 500px;
+    }
+    #intro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #intro #img {
+        margin-right: 10rem;
+    }
+
+    #intro #img img {
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    #intro p {
+        text-align: justify;
+    }
+
+
+
+     /*-----------ARTICLE-----------*/
+
+     h2 {
+        text-align: center;
+        color: black;
+    }
+    
+     article p {
+        color: midnightblue;    
+    }
+
+    section:last-child {
+        background-color: currentColor;
+        margin: 0;
+        padding: 0 0 5rem 0;
+    }
+
+    /*#container > article {
+        flex-basis: 600px; 
+        margin: 4rem 2rem;
+    }
+
+    #container  article:hover {
+        transform: scale(1.1);
+    }
+
+    /*#container {
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #container > article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        margin: 2rem;
+        background-color: #cac09b;
+        border-radius: 10px;
+     
+    }
+
+    #container > article div {
+        max-width: 700px;
+    }
+
+    #container > article div p {
+        text-align: justify;
+    }
+
+    #container > article h2, #container > article div p {
+        padding: 20px;
+        margin: 0;
+    }*/
+
+
+  
+
+
+}
